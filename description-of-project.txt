@@ -1,0 +1,9 @@
+Single Cycle Processor for MIPS ISA able to process the following instructions (add, sub, slt, beq, j, lw, sw, and, or) as of 24th January, 2025.
+
+Code is currently for simulation, the modules for FPGA configuration haven't been added yet
+	- A file containing hexadecimal instructioons is included within the repo, 
+  - The instructions form a sample program which writes the value 7 to address 84
+	- Testbench reports if program executes successfully 
+	
+Next Steps(Long Term): Multicycle and Pipelined version
+Next Steps(Short Term): Implement exception handling
