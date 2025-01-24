@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../mips_ss_processor.srcs/sources_1/imports/modelsim/ALU.sv" \
+"../../../../mips_ss_processor.srcs/sources_1/imports/modelsim/ALU_decoder.sv" \
+"../../../../mips_ss_processor.srcs/sources_1/imports/modelsim/TOP_LEVEL.sv" \
+"../../../../mips_ss_processor.srcs/sources_1/imports/modelsim/adder.sv" \
+"../../../../mips_ss_processor.srcs/sources_1/imports/modelsim/adder2.sv" \
+"../../../../mips_ss_processor.srcs/sources_1/imports/modelsim/control_unit.sv" \
+"../../../../mips_ss_processor.srcs/sources_1/imports/modelsim/data_memory.sv" \
+"../../../../mips_ss_processor.srcs/sources_1/imports/modelsim/datapath.sv" \
+"../../../../mips_ss_processor.srcs/sources_1/imports/modelsim/instruction_memory.sv" \
+"../../../../mips_ss_processor.srcs/sources_1/imports/modelsim/main_decoder.sv" \
+"../../../../mips_ss_processor.srcs/sources_1/imports/modelsim/mips.sv" \
+"../../../../mips_ss_processor.srcs/sources_1/imports/modelsim/mux2.sv" \
+"../../../../mips_ss_processor.srcs/sources_1/imports/modelsim/mux4.sv" \
+"../../../../mips_ss_processor.srcs/sources_1/imports/modelsim/register_file.sv" \
+"../../../../mips_ss_processor.srcs/sources_1/imports/modelsim/resettable_flipflop.sv" \
+"../../../../mips_ss_processor.srcs/sources_1/imports/modelsim/sign_extend.sv" \
+"../../../../mips_ss_processor.srcs/sources_1/imports/modelsim/sl2.sv" \
+"../../../../mips_ss_processor.srcs/sources_1/new/TESTBENCH.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
